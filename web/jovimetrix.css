@@ -1,0 +1,152 @@
+/**
+ * File: jovimetrix.css
+ * Project: Jovimetrix
+ */
+
+#jov-manager-dialog {
+  min-width: 400px;
+  max-width: 1000px;
+  height: 620px;
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  z-index: 10000;
+  overflow: visible;
+  box-shadow: 0 0 8px #648064;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#jov-manager-dialog td {
+  color: white;
+  text-align: right;
+}
+
+.jov-modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  padding: 25px;
+  border-radius: 15px;
+  border: 3px solid #AAA;
+}
+
+#jov-submit-cancel {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  background-color: #C43E3E;
+  color: #222;
+  border: none;
+  border-radius: 5px;
+}
+
+#jov-submit-continue {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  background-color: #3EC43E;
+  color: #222;
+  border: none;
+  border-radius: 5px;
+}
+
+.jov-modal-content h3, h4 {
+  padding: 2px;
+  margin: 2px;
+}
+
+.jov-config-color-header  {
+  color: white;
+  text-align: right;
+}
+
+.jov-config-color {
+  background-color: rgb(15, 15, 15);
+  max-height: 550px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.jov-title {
+  text-align: center;
+}
+
+.jov-title-header {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  background: linear-gradient(22deg, #ff0000 25%, #4c67dd 40%, #5ddd4c 50%, #dd4c4c 65%);
+  clip: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#jov-apply-button {
+  text-align: center;
+}
+
+#jov-manager-dialog button {
+  background-color: #300000;
+  color: #FFFFFF;
+  padding: 5px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  margin:0px
+}
+
+#jov-close-button button {
+  background-color: #202020;
+  width: calc(100% - 2px);
+  bottom: 2px;
+  border: 2px solid #ccc;
+  border-radius: 0px;
+  position: absolute;
+  overflow: hidden;
+}
+
+#jov-manager-dialog input {
+  border-style: none;
+  border-radius: 0px;
+  font-size: unset;
+}
+
+.jov-color {
+  text-align: center;
+  font-size: 1em;
+  width: 25px;
+  height: 25px;
+}
+
+tbody {
+  padding: 0px;
+  user-select: none;
+}
+
+tr, td {
+  padding: 0px;
+  user-select: none;
+}
+
+.foldable-title {
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+}
+
+.foldable-symbol {
+  margin-right: 10px;
+}
+
+.foldable-content {
+  display: none;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.jov-hidden {
+  visibility: hidden;
+}

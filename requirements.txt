@@ -1,0 +1,23 @@
+torch
+numpy
+matplotlib
+opencv-contrib-python
+ffmpeg-python
+librosa
+loguru
+moderngl
+mss
+requests
+Pillow
+pywin32==306; platform_system=="Windows"
+scikit-image
+blendmodes
+mido[ports-rtmidi]
+pyaudio
+daltonlens
+numba
+PyOpenGL
+PyOpenGL-accelerate
+SpoutGL; platform_system != "Linux"
+vnoise
+stereoscopy[auto_align]
